@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Node SMS Texting</title>
+    </head>
+    <body>
+        <!form method="POST" action="/sendotp">
+        <div class="container">
+            <h2> Send SMS Message</h2>
+            <input type="tel" name="number" id="number" placeholder="Enter phone number">
+            <!input type="text" name="msg" id="msg" placeholder="Enter text msg">
+            <input type="submit" name="submit" id="button"  value="Send OTP" class="button button-primary">
+            <p class="response"></p>
+        </div>
+        <!/form>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
